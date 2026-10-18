@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>小明 AI Tips · AI 工具使用技巧与提示词</title>
+<style>
+  :root{
+    --bg:#ffffff;
+    --ink:#1a1a1a;
+    --sub:#5b6472;
+    --line:#e8eaef;
+    --accent:#3b5bdb;
+    --soft:linear-gradient(180deg,#f7f9ff 0%,#ffffff 60%);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+    background:var(--bg);color:var(--ink);line-height:1.7;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:820px;margin:0 auto;padding:0 24px}
+  header{background:var(--soft);border-bottom:1px solid var(--line);padding:72px 0 64px}
+  .tag{
+    display:inline-block;font-size:13px;color:var(--accent);background:#eef2ff;
+    padding:5px 12px;border-radius:99px;margin-bottom:22px;letter-spacing:.02em;
+  }
+  h1{font-size:38px;line-height:1.25;letter-spacing:-.02em;font-weight:700;margin-bottom:16px}
+  header p{font-size:17px;color:var(--sub);max-width:560px}
+  main{padding:56px 0 24px}
+  h2{font-size:20px;font-weight:650;margin-bottom:6px;letter-spacing:-.01em}
+  .sec-note{font-size:15px;color:var(--sub);margin-bottom:26px}
+  .grid{display:grid;gap:16px;margin-bottom:52px}
+  a.card{
+    display:block;text-decoration:none;color:inherit;border:1px solid var(--line);
+    border-radius:14px;padding:22px 24px;transition:.18s ease;background:#fff;
+  }
+  a.card:hover{border-color:#c7d2fe;box-shadow:0 6px 24px rgba(59,91,219,.08);transform:translateY(-2px)}
+  .card .meta{font-size:12px;color:var(--sub);letter-spacing:.06em;text-transform:uppercase;margin-bottom:8px}
+  .card h3{font-size:17px;font-weight:600;margin-bottom:8px}
+  .card p{font-size:15px;color:var(--sub)}
+  footer{border-top:1px solid var(--line);padding:34px 0 56px;margin-top:24px}
+  footer p{font-size:14px;color:var(--sub)}
+  footer a{color:var(--accent);text-decoration:none}
+  footer a:hover{text-decoration:underline}
+  @media(max-width:600px){h1{font-size:30px}header{padding:56px 0 48px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <span class="tag">AI 工具 · 提示词 · 教程</span>
+    <h1>小明 AI Tips</h1>
+    <p>把 AI 工具的使用技巧拆成能直接抄的模板、能照着做的教程、能复用的技能包。不堆术语，复制就能用。</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <h2>内容目录</h2>
+  <p class="sec-note">三块内容按用途分类，持续更新。</p>
+
+  <div class="grid">
+    <a class="card" href="prompts/example-prompt.html">
+      <div class="meta">prompts</div>
+      <h3>通用提示词模板</h3>
+      <p>一个结构化的万能提示词骨架，含变量说明和实测示例。</p>
+    </a>
+    <a class="card" href="tutorials/example-tutorial.html">
+      <div class="meta">tutorials</div>
+      <h3>从零上手 AI 工具</h3>
+      <p>环境准备、首次调用、常见报错处理的完整流程。</p>
+    </a>
+    <a class="card" href="skills/example-skill.html">
+      <div class="meta">skills</div>
+      <h3>技能包示例</h3>
+      <p>技能包的标准结构、字段写法和验证方法。</p>
+    </a>
+  </div>
+
+  <h2>关于</h2>
+  <p class="sec-note">仓库源码、提交记录和全部内容都在 GitHub 上，欢迎 Star 与 PR。</p>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>GitHub：<a href="https://github.com/wangge-dev/xiaoming-ai-tips">wangge-dev/xiaoming-ai-tips</a> · 文档采用 CC BY 4.0 授权</p>
+  </div>
+</footer>
+</body>
+</html>
